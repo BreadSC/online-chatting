@@ -1,0 +1,38 @@
+.chat-frame{
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.chat-content{
+    height: 85vh;
+    background-color: whitesmoke;
+}
+.room-title{
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+.room-avatar{
+    margin-top: 10px;
+}
+.message-input{
+    flex: 1;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    
+    
+    border-bottom: 1px solid gray;
+}
+.search-input {
+    margin-left: 8px;
+    flex: 1;
+}
+  
+.search-button {
+padding: 10px;
+}
