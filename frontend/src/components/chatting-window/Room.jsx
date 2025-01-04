@@ -3,7 +3,8 @@ import { Box } from '@mui/material';
 import {Typography } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
 import '../../styles/chatting-window/room.css';
-function Room() {
+
+const Room = () => {
   
 
   return (
