@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const Login = () => {
@@ -24,9 +25,9 @@ const Login = () => {
                     placeholder="Nhập username" 
                     className="w-full input input-bordered h-10"/>
             </div>
-            <a href="#" className="text-sm hover:underline hover:text-blue-600 mt-2 inline-block">
+            <Link to='/signup' className="text-sm hover:underline hover:text-blue-600 mt-2 inline-block">
                 { "Chưa có" } tài khoản ?
-            </a>
+            </Link>
             <div>
                 <button className="btn btn-block btn-sm mt-2">Login</button>
             </div>
