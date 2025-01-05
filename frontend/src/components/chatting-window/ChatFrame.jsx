@@ -13,6 +13,7 @@ import { useAuthContext } from "../../context/AuthContext";
 const ChatFrame = () => {
   const { selectedRoom, setSelectedRoom } = useRoom();
   //update chatframe
+  //update thienmain
   useEffect(() => {
     return () => setSelectedRoom(null);
   }, [setSelectedRoom]);
