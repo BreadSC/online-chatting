@@ -25,7 +25,7 @@ function SearchTool() {
     if(room){
       setSelectedRoom(room)
       setSearch('');
-    } else toast.error("Không tìm thấy người dùng!")
+    } else toast.error("Hiện tại. Không tìm thấy người dùng!")
   }
   return (
     <Paper className='search-tool'
