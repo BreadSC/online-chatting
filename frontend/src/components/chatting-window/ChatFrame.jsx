@@ -13,10 +13,10 @@ import { useAuthContext } from "../../context/AuthContext";
 const ChatFrame = () => {
   const { selectedRoom, setSelectedRoom } = useRoom();
   //update chatframe
+  //update thienne
   useEffect(() => {
     return () => setSelectedRoom(null);
   }, [setSelectedRoom]);
-  //thienne
   return (
     <Box className="chat-frame">
       {!selectedRoom ? (
