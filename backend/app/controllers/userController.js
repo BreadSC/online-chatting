@@ -1,5 +1,5 @@
 import User from "../models/User.js";
-
+//Lấy thông tin tất cả user
 export const getUsersForSidebar = async (req, res) => {
   try {
     const loggedInUserId = req.user._id;
