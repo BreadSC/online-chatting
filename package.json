@@ -4,7 +4,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/index.js"
+    "server": "nodemon backend/src/index.js",
+    "start": "node backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
