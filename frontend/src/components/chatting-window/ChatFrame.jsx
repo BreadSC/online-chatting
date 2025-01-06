@@ -45,6 +45,13 @@ const ChatFrame = () => {
 export default ChatFrame;
 
 const NoRoomSelected = () => {
-  const { authUser } = useAuthContext();
-  return <h1> Xin chào {authUser.fullName}</h1>;
-};
+  const {authUser} = useAuthContext()
+  return(
+    <Box className="chat-frame" sx={{ textAlign: 'center', padding: '20px' }}>
+      <Typography variant="h4" sx={{ marginTop: '20px' }}>
+        Xin chào {authUser.fullName}
+      </Typography>
+    </Box>
+    
+  )
+}

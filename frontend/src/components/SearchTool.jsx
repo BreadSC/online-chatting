@@ -28,11 +28,10 @@ function SearchTool() {
     } else toast.error("Không tìm thấy người dùng!");
   };
   return (
-    <Paper
-      className="search-tool"
-      component="form"
-      sx={{ borderRadius: 0 }}
-      onSubmit={handleSubmit}
+    <Paper className='search-tool'
+        component="form"
+        sx={{borderRadius: 8}}
+        onSubmit={handleSubmit}
     >
       <InputBase
         className="search-input"

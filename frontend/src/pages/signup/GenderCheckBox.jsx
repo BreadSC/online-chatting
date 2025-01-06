@@ -1,5 +1,5 @@
-
-
+//
+//Tạo checkbox để chọn giới tính
 const GenderCheckBox = ({onCheckboxChange, selectedGender}) => {
   return (
     <div className="flex">

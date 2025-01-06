@@ -12,8 +12,8 @@ function HomePage() {
     
     <React.Fragment>
     <CssBaseline />
-    <Container maxWidth="false" className="home">
-      <SideBar/>
+    <Container maxWidth="false" className="home" >
+      <SideBar/> 
       <ChatWindow/>
       
     </Container>
