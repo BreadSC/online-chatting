@@ -16,7 +16,7 @@ const useGetRooms = () => {
 				}
 				setRooms(data);
 			} catch (error) {
-                
+                console.log(error.message)
 				toast.error(error.message);
 			} finally {
 				setLoading(false);
