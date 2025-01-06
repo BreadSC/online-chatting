@@ -1,5 +1,5 @@
 import User from "../models/User.js";
-
+//user update
 export const getUsersForSidebar = async (req, res) => {
   try {
     const loggedInUserId = req.user._id;
