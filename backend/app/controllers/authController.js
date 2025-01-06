@@ -49,7 +49,7 @@ export const signup = async (req, res) => {
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
-
+//Chức năng đăng nhập done
 export const login = async (req, res) => {
   try {
     const { username, password } = req.body;
