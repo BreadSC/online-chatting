@@ -1,0 +1,9 @@
+.room-list{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #cecece;
+    border-radius: 0px;
+    padding: 8px;
+    gap: 8px;
+}

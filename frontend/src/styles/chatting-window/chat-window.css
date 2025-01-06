@@ -1,0 +1,7 @@
+.chat-window{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-direction: row;
+    border-radius: '0px';
+}

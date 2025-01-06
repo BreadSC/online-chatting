@@ -1,7 +1,7 @@
 import Conversation from "../models/Conversation.js";
 import Message from "../models/Message.js";
 import { getReceiverSocketId, io } from "../socket/socket.js";
-
+// done chức năng message
 export const sendMessage = async (req, res) => {
   try {
     const { message } = req.body;
@@ -40,6 +40,7 @@ export const sendMessage = async (req, res) => {
     res.status(200).json(newMessage);
   } catch (error) {
     console.log("Error in send message controller", error.message);
+    console.log("Tôi sửa ở đây");
     res.status(500).json({ error: "Internal Server Error" });
   }
 };

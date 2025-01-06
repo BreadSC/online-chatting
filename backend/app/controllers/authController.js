@@ -46,10 +46,11 @@ export const signup = async (req, res) => {
     }
   } catch (error) {
     console.log("Error in signup controller", error.message);
+    console.log("Tôi sửa ở đây");
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
-
+//Chức năng đăng nhập done
 export const login = async (req, res) => {
   try {
     const { username, password } = req.body;

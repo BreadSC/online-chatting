@@ -1,0 +1,46 @@
+.chat-frame{
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.chat-content{
+    height: 85vh;
+    padding: 4px 8px;
+    background-color: whitesmoke;
+
+    
+}
+
+::-webkit-scrollbar {
+    scrollbar-width: thin;
+}
+.room-title{
+    background-color: white;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.room-title h4 {
+    font-size: 24px;
+}
+.room-avatar{
+    margin-top: 10px;
+}
+.message-input{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+}
+.search-input {
+    margin-left: 8px;
+    flex: 1;
+}
+  
+.search-button {
+padding: 10px;
+}
