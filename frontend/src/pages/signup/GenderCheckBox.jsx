@@ -1,5 +1,5 @@
 
-
+//Tạo checkbox để chọn giới tính
 const GenderCheckBox = ({onCheckboxChange, selectedGender}) => {
   return (
     <div className="flex">
@@ -7,7 +7,7 @@ const GenderCheckBox = ({onCheckboxChange, selectedGender}) => {
             <label className={`label gap-2 cursor-pointer ${selectedGender === "male" ? "selected" : ""} `}>
                 <span className="label-text">Nam</span>
                 <input type="checkbox" className="checkbox border-slate-900" 
-                    checked={selectedGender === "male"}
+                    check={selectedGender === "female"}
                     onChange={() => onCheckboxChange("male")}
                 />
             </label>
