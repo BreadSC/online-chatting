@@ -9,6 +9,7 @@ function RoomList() {
   
   const {loading, rooms} = useGetRooms();
   // console.log("Rooms:", rooms);
+  // update room list success
   return (
     <Box className="room-list">
         <SearchTool/>
