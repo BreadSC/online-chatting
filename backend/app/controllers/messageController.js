@@ -1,7 +1,7 @@
 import Conversation from "../models/Conversation.js";
 import Message from "../models/Message.js";
 import { getReceiverSocketId, io } from "../socket/socket.js";
-
+// done chức năng message
 export const sendMessage = async (req, res) => {
   try {
     const { message } = req.body;
