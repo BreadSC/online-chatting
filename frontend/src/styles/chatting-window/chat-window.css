@@ -3,6 +3,5 @@
     flex: 1;
     height: 100vh;
     flex-direction: row;
-    border: 1px solid gray;
     border-radius: '0px';
 }

@@ -29,7 +29,7 @@ function SearchTool() {
   return (
     <Paper className='search-tool'
         component="form"
-        sx={{borderRadius: 0}}
+        sx={{borderRadius: 8}}
         onSubmit={handleSubmit}
     >
       <InputBase className='search-input'

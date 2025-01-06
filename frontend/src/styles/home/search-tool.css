@@ -1,18 +1,16 @@
 .search-tool{
-    
-    
-    
     padding: 2px 4px;
     display: flex;
     align-items: center;
-    width: 340px;
-    
+    width: 100%;
+    border-radius: 16px;
     border-right: 1px solid gray;
-    
+    box-shadow: 0 2px 4px 0px #cecece;
 }
 .search-input {
     margin-left: 8px;
     flex: 1;
+    font-size: 14px;
 }
   
 .search-button {
